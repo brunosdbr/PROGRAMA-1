@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;;
+    text-decoration: none;
+}
+:root{
+    --cor00: #ddca1d;
+    --cor01: #ccbf03;
+    --cor02: #f3f585;
+    --cor03: #ffffff;
+    --cor04: rgb(19, 15, 15);
+}
+/*:root{
+    --cor00: #037cc2;
+    --cor01: #3daadd;
+    --cor02: #7baee9;
+    --cor03: #9fe6f8;
+    --cor04: #f3f3f3;
+}*/
+/*.principal{
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    background-image: blue;
+    width: 100vw;
+    height: 100vh;
+}*/
+.principal{
+    background-color: var(--cor04);
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    justify-content: space-between;
+    width: 150px;
+    height: 100px;
+}
+.header{
+    background-color: transparent;
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+}
+.header h1{
+    padding-top: 20px;
+    font-size: 40pt;
+    color: var(--cor00);
+}
+.container{
+    width: 100vw;
+    height: 85vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;  
+}
+.conteudo-1{
+    border: 2px solid var(--cor01);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.200);
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50px;
+}
+.conteudo-2{
+    border: 2px solid var(--cor01);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.200);
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50px;
+}
+.conteudo-3{
+    border: 2px solid var(--cor01);
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.200);
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50px;
+}
+#efeito:hover{
+    background-color: var(--cor01);
+    transition: all .5s;
+}
+#efeito a{
+    display: block;
+    width: 16rem;
+    height: 16rem;
+    margin: .5rem;
+    font-size: 10rem;
+    color: var(--cor00);
+    transition: all .5s;
+    transform: scale(1) translate(15%, 10px);  
+}
+#efeito a:hover{
+    color: var(--cor04);
+    transform: scale(1) translate(15%, 30px);  
+}
+.arrow{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+    font-display: var(--cor00);
+}
+footer{
+    color: rgb(218, 215, 215);
+    position: absolute;
+    top: 95%;
+    left: 85%;
+    font-size: 8pt;
+}
