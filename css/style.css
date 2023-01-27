@@ -108,7 +108,7 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 20pt;
-    font-display: var(--cor00);
+    font-display: var(--cor03);
 }
 footer{
     color: rgb(218, 215, 215);
@@ -116,4 +116,52 @@ footer{
     top: 95%;
     left: 85%;
     font-size: 8pt;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100vw;
+        height: 85vh;
+        justify-content: space-around;
+        display: block;
+        align-items: center;
+    
+    }
+    .conteudo-1{
+        border: 2px solid var(--cor01);
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.200);
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50px;
+    }
+    .conteudo-2{
+        border: 2px solid var(--cor01);
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.200);
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50px;
+    }
+    .conteudo-3{
+        border: 2px solid var(--cor01);
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.200);
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50px;
+    }
+    #efeito a{
+        display: block;
+        width: 10rem;
+        height: 10rem;
+        margin: .5rem;
+        font-size: 6rem;
+        color: var(--cor00);
+        transition: all .5s;
+        transform: scale(1) translate(15%, 10px);  
+    }
+    footer{
+        color: rgb(218, 215, 215);
+        position: absolute;
+        top: 95%;
+        left: 77%;
+        font-size: .4rem;
+    }
 }
